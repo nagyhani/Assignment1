@@ -1,0 +1,35 @@
+1- forEach is an array method and it can be used for arrays only 
+
+for of used for iterable objects like arrays, strings, maps and sets
+
+
+2-Hoisting happens to all declared variables and functions, they are moved in the top pf the code before execution. for var and functions it can be used before declaration. for let and const the term hoisting is applied but they moved in the top of the code but remain uninitialized until they are declared but they will be in the TDZ (temporal dead zone) 
+
+EX: welcome()
+
+console.log(x);
+
+function welcome(){
+    console.log("Welcome");
+    
+}
+
+let x = "welcome"
+
+
+
+
+3- for == it compare between values only 
+for === it compare between values and data type 
+
+
+
+4- try and catch handle errors in the code so the program do not crash when something unexpected happens if everything works fine the catch is skipped if there is error it jumps to catch 
+
+
+
+
+
+5- conversion can be done by developer by converting string to number and vice versa but if you converted a word to number it returns NaN
+
+for coercion is done by JavaScript when adding undefined to number or to an undefined it returns NaN
