@@ -199,17 +199,45 @@
 
 
 // Bonus
-// let arr = []
+
 //  function createCounter(x){
 
-//     let inc = x+1
-//     let reset = x
-//     let dec = x-1
+//     let count = x
 
-//     arr.push(inc , reset , dec)
-//     console.log(arr);
+//     return {
+
+//         increment(){
+
+//             count++
+
+//             return count
+//         },
+
+
+//         decrement(){
+
+//             count--
+
+//             return count
+//         },
+
+
+//         reset(){
+
+//             count = x
+
+//             return count
+//         }
+
+//     }
+
+  
     
 
 //  }
 
-//  createCounter(10)
+// let counter = createCounter(10)
+
+// console.log(counter.increment());
+// console.log(counter.decrement());
+
